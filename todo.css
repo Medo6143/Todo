@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.322);
+    color: rgb(58, 53, 53);
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(151, 169, 187);
+    background-color: rgb(40, 21, 80);
+    width: auto;
+    height: 80px;
+    font-family: system-ui;
+}
+
+#task1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding-right: 10px;
+}
+
+#input {
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    box-shadow: -1px 2px;
+}
+
+
+#but {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(113, 79, 207);
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+
+}
+ 
+#but:hover{
+    background-color: rgb(143, 160, 154);
+}
+
+#div{
+    justify-content: center;
+   display:flex;
+}
+
+.tasks {
+    background-color: rgb(114, 115, 161);
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+    width: 60%;
+    
+    
+}
+
+.task {
+    background-color: rgb(192, 199, 240);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid rgb(182, 179, 190);
+}
+
+.task:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.task:hover {
+    background-color: #5e6cb9;
+}
+
+
+
+
+ span {
+    font-size: 10px;
+    background-color: rgb(219, 6, 6);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+#button {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -520px;
+    margin-bottom: -15px;
+}
+
+button {
+    background-color: #5e6cb9;
+    border-radius: 5px ;
+    width: 80px;
+    height: 30px;
+    border: none;
+
+
+}
+
+button:hover {
+    background-color: rgb(69, 78, 85);
+}
+
+.do {
+    background-color: rgb(26, 23, 68);
+    color: rgb(237, 241, 233);
+    
+    
+}
+
+p {
+    color: rgb(25, 155, 206);
+    font-size: 15px;
+    font-family: cursive;
+}
